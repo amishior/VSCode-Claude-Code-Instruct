@@ -1,6 +1,6 @@
 # VSCode + WSL 里配 Claude Code 连不上,大概率是 WSL 的 DNS 问题
 
-先抛结论:在 **Windows + WSL2 + VSCode Remote WSL** 环境里第一次配 Claude Code,连不上十有八九不是 Claude Code 本身的毛病,而是 WSL 的网络 / DNS 没配好,访问不了 `api.anthropic.com`。
+在 **Windows + WSL2 + VSCode Remote WSL** 环境里第一次配 Claude Code,连不上十有八九不是 Claude Code 本身的毛病,而是 WSL 的网络 / DNS 没配好,访问不了 `api.anthropic.com`。
 
 下面是一次完整的排查记录。
 
